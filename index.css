@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    /* background-color: #1E1E1E; */
+    font-family: 'Inter';
+    font-style: normal;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #111111;
+}
+header{
+    box-sizing: border-box;
+
+position: relative;
+
+
+background: #111111;
+border: 5px solid #808080;
+border-radius: 20px;
+padding-top: 38px;
+padding-bottom: 39px; 
+padding-left: 51px;
+
+}
+.head{
+    font-weight: 200;
+    font-size: 30px;
+    width: 700px;
+    height: 58px;
+  
+    
+    font-family: 'Inter';
+    font-style: normal;
+   
+    line-height: 58px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+}
+.container{
+    box-sizing: border-box;
+    display:flex;
+    flex-flow: row wrap;
+    background: #111111;
+    font-size: 24px;
+
+  
+    
+}
+.left{
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 20px;
+    box-sizing: border-box;
+  
+
+    padding: 20px;
+    justify-content: space-evenly;
+   
+  
+ 
+}
+ 
+
+
+.rectangle1{
+font-size: 24px;
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+border: 5px solid  #808080;
+border-radius: 20px;
+color: #FFFFFF;
+padding: 10px;
+
+
+}
+.left img{
+    width: 190px;
+height: 190px;
+background: url(100k-ai-faces-6.jpg);
+border-radius: 100000px;
+padding: 10px;
+}
+.rectangle2{
+    border: 5px solid  #808080;
+border-radius: 20px;
+padding: 10px;
+color: #FFFFFF;
+}
+.rectangle3 img{
+    Width:33.33px;
+Height:26.67px;
+color: #FFFFFF;
+}
+.rectangle3{
+    border: 5px solid  #808080;
+border-radius: 20px;
+padding: 10px;
+display: flex;
+flex-flow: column wrap;
+align-items: flex-start;
+color:  #808080;;
+padding-left: 40px;
+
+
+
+}
+.rectangle3 div{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.rectangle1  {
+    background: #111111;
+} 
+.rectangle2{
+    background: #111111;
+}
+.rectangle3{
+    background: #111111;
+}
+.rectangle3 span{
+color: #FFFFFF;
+padding-left: 15px;
+
+}
+.right div{
+    font-weight: 200;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+ td, th{
+     border: 2px solid #808080;
+    
+}
+table{
+    border-collapse: collapse;
+   border-radius: 5px;
+    font-size: 24px;
+    width: 634px;
+    height: 700px;
+    color: #808080;
+    
+ 
+} 
+.right{
+    background: #111111;
+    border: 5px solid  #808080;
+border-radius: 20px;
+margin: 20px;
+padding: 20px;
+flex-flow: row wrap;
+
+}
+td{
+    text-align: center;
+}
+@media screen and  (max-width:640px)
+{
+    header{
+        box-sizing: border-box;
+    
+    position: relative;
+    
+    
+    background: #111111;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px; 
+    padding-left: 22px;
+    
+    }
+    .head{
+        font-weight: 200;
+        font-size: 30px;
+        width: 700px;
+        height: 58px;
+      
+        
+        font-family: 'Inter';
+        font-style: normal;
+       
+        line-height: 58px;
+        /* identical to box height */
+        
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        
+    }
+    .container{
+        box-sizing: border-box;
+        display:flex;
+        flex-flow: column wrap;
+        background: #111111;
+        font-size: 24px;
+    
+      
+        
+    }
+    table{
+        border-collapse: collapse;
+       border-radius: 5px;
+        font-size: 24px;
+        width: auto;
+        height: auto;
+        color: #808080;
+        
+     
+    } 
+}
